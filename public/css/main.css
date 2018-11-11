@@ -1,0 +1,88 @@
+.form label{
+    color: #fffefd;
+}
+.badge {
+    font-size: 90%;
+    margin-bottom: 3px;
+}
+.icon-size{
+    font-size: 60px;
+}
+
+/*===================================
+          ADMIN PANEL CSS
+=================================== */
+.admin-body-color{
+    background-color: #222;
+}
+
+@media (min-width: 992px){
+    .padd-left{
+        padding-left: 225px;
+    }
+    .side-nav {
+        position: fixed;
+        top: 53px;
+        left: 225px;
+        width: 225px;
+        border: none;
+        margin-left: -225px;
+        border-radius: 0;
+        overflow-y: auto;
+        background-color: #222;
+        bottom: 0;
+        overflow-x: hidden;
+        padding-bottom: 40px;
+        z-index: 10;
+    }
+    .side-nav li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+    }
+    .side-nav li:hover,
+    .side-nav li:active{
+        background-color: #484848;
+    }
+
+    .wrapper{
+        padding: 10px;
+    }
+}
+
+.btn-custom{
+    background-color: transparent;
+    color: white;
+}
+.hover-none:hover{
+    text-decoration: none;
+}
+.messages-preview{
+    width: 275px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+.messages-dropdown{
+    padding: 0;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.nav{
+    position: fixed;
+    right: 90px;
+    top:10px;
+    z-index: 10;
+}
+.wrapper{
+    width: 100%;
+    background-color: #fff;
+}
+.nav-item.active{
+    background-color: #343a40;
+}
+.img-responsive{
+     max-width: 250px;
+ }
+.img-show{
+    max-width: 600px;
+}
